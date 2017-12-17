@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <meta charset="utf-8">
+         <title>D3 Test</title>
+         <script type="text/javascript" src="../lib/d3.js"></script>
+      </head>
+      <body>
+      <script src="./scatter_plot.js"></script>
+      <script src="./data_controller.js"></script>
+<font color="red">主食</font>
+<input type="checkbox" name="staple-food" id="staple-food" checked="checked">
+<font color="blue">主菜</font>
+<input type="checkbox" name="main" id="main" checked="checked">
+<font color="green">副菜</font>
+<input type="checkbox" name="sub" id="sub" checked="checked">
+
+<form>
+      <p>栄養を選択</p>
+      <select name="nutrition" id="nutrition">
+      <option value="protein">タンパク質</option>
+      <option value="lipid">脂質</option>
+      <option value="carbohydrate" selected>炭水化物</option>
+      <option value="vitamin">ビタミン</option>
+      <option value="mineral">ミネラル</option>      
+      </select></form>
+
+<form>
+      <p>横軸を選択</p>
+      <select name="horizontal" id="horizontal">
+      <option value="cooktime" selected>調理時間</option>
+      <option value="good">人気</option>
+      </select></form>
+
+<script type="text/javascript">
+
+
+
+drawScatterPlot()
+
+</script>
+</body></html>

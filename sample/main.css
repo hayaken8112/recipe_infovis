@@ -1,0 +1,45 @@
+#contents {
+    width: 80%;
+    margin: auto;
+}
+#chart {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    float: left;
+}
+.radarChart {
+    width: 100%;
+    height: 70%;
+    margin: auto;
+    float: left;
+}
+#barChart {
+    width: 50%;
+    height: 30%;
+    float: left;
+    clear: both;
+}
+/* #plotarea {
+    height: 50%;
+} */
+#plot {
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    float: right;
+}
+
+#selected {
+    width: 100%;
+    height: 40%;
+    float: left;
+    clear: both;
+}
+#verticalselect{
+    float: left;
+}
+
+#horizontalselect{
+    float: right;
+}
